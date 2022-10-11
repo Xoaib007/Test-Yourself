@@ -1,11 +1,10 @@
 import React from 'react';
-import './Header.css';
-import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-const Header = () => {
+const NavBar = () => {
     return (
-        <div className='header'>
-            <div className='header-buttons'>
+        <div className='navbar'>
+            <div className='navbar-buttons'>
                 <a href='/'>Quiz</a>
                 <a href='/stats'>Statistic</a>
                 <a href='.blog'>Blog</a>
@@ -14,4 +13,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default NavBar;

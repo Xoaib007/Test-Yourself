@@ -1,12 +1,14 @@
 
 import './App.css';
-import Header from './Componet/Header/Header';
+import Navbar from './Componet/Navbar/Navbar';
+import Topics from './Componet/Topics/Topics';
 
 function App() {
   
   return (
     <div className="App">
-      <Header></Header>
+      <Navbar></Navbar>
+      <Topics></Topics>
     </div>
   );
 }
