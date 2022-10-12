@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topics.css'
 
 
@@ -12,7 +13,7 @@ const Topics = ({topics}) => {
                     <h3>Total Quiz: {topics.total}</h3>
                 </div>
                 <button className='quiz-btn'>
-                    <h3 className='btn-text'>Take the test</h3>
+                    <Link to={`${topics.id}`} className='btn-text'>Take the test</Link>
                 </button>
             </div>
         

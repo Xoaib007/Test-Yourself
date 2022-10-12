@@ -9,10 +9,29 @@
     border-radius: 15px;
 }
 .quiz-btn{
-    background-color: #ef5924;
+    height: 50px;
+    background-color: #fe875c;
     width: 100%;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     border: none;
-
+    cursor: pointer;
+}
+.quiz-btn:hover{
+    background-color: #ff4400;
+    color: aliceblue;
+}
+.btn-text{
+    font-size: larger;
+    font-weight: bolder;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+.btn-text:hover{
+    font-size: large;
+    font-weight: bold;
+    
+    color: aliceblue;
 }
