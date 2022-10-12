@@ -5,7 +5,6 @@ import './Stats.css'
 
 const Stats = () => {
     const stats = useLoaderData();
-    console.log(stats)
     return (
         <div className='stats'>
              <div>

@@ -1,11 +1,10 @@
 import React from 'react';
-import './Header.css'
-import { useLoaderData } from 'react-router-dom';
+import './Header.css';
 import { Card } from 'react-bootstrap';
 import Topics from '../Topics/Topics';
 
-const Header = () => {
-    const topics = useLoaderData();
+const Header = ({topics}) => {
+    
     return (
         <div>
             <div className='header'>
@@ -19,12 +18,10 @@ const Header = () => {
                     </Card.ImgOverlay>
                 </Card>
                 <div className='topic-container'>
-                    {
-                        topics.data.map(topics=><Topics
-                        key={topics.id}
-                        topics={topics}
-                        ></Topics>)
-                    }
+                    {topics.data.map(topics=><Topics
+                    key={topics.id}
+                    topics={topics}
+                    ></Topics>)}
                 </div>
             </div>
         </div>

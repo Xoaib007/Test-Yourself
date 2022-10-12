@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Quiz_page = () => {
+const QuizPage = ({topics}) => {
+    console.log(topics)
     return (
         <div>
-            
+            quizzzzz
         </div>
     );
 };
 
-export default Quiz_page;
+export default QuizPage;
