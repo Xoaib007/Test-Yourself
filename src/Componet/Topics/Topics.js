@@ -4,7 +4,6 @@ import './Topics.css'
 
 
 const Topics = ({topics}) => {
-    console.log(topics)
     return (
             <div className='topics'>
                 <img className='logo' src={topics.logo} alt=""></img>
