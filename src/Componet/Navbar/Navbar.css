@@ -1,6 +1,6 @@
 .navbar{
     height: 80px;
-    background-color: #f5f2e3;
+    background-color: #f2956a;
     align-items: center;
     padding-left: 140px;
     padding-right: 140px;
@@ -17,7 +17,7 @@
 }
 .navbar a:hover{
     font-size: 30px;
-    color: #f25939;
+    color: #ff2a00;
     font-weight: 600;
 }
 

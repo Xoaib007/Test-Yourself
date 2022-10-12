@@ -1,6 +1,18 @@
-.header{
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
     margin-top: 20px;
 }
-.header img{
-    width: 80%;
+.topics{
+    background-color: #fdedb1;
+    border-radius: 15px;
+}
+.quiz-btn{
+    background-color: #ef5924;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+
 }

@@ -1,21 +1,21 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
 import './Topics.css'
 
 
-const Topics = () => {
+const Topics = ({topics}) => {
+    console.log(topics)
     return (
-        <div className='header'>
-            <Card className="bg-dark text-dark">
-            <Card.Img src="https://i.ibb.co/2FtLWJr/banner.jpg" alt="Card image" />
-            <Card.ImgOverlay>
-                <Card.Title><h1>Test Yourself</h1></Card.Title>
-                <Card.Text>
-                They say you should test yourself to know your true potential. So lets choose a topic below and and put your wizarding knowledge to the test with curious quizzes for all levels. Good Luck!!!
-                </Card.Text>
-            </Card.ImgOverlay>
-            </Card>
-        </div>
+            <div className='topics'>
+                <img className='logo' src={topics.logo} alt=""></img>
+                <div className='topic-info'>
+                    <h1>{topics.name}</h1>
+                    <h3>Total Quiz: {topics.total}</h3>
+                </div>
+                <button className='quiz-btn'>
+                    <h3 className='btn-text'>Take the test</h3>
+                </button>
+            </div>
+        
     );
 };
 
