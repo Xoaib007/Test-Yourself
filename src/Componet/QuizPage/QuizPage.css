@@ -1,0 +1,30 @@
+.question{
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    border: 2px solid #ff0400;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2956a;
+}
+.quizbox{
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.option{
+    margin-bottom: 10px;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.option-container{
+    display: flex;
+    justify-content: center;
+}

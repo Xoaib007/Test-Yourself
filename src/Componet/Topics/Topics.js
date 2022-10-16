@@ -4,6 +4,7 @@ import './Topics.css'
 
 
 const Topics = ({topics}) => {
+    
     return (
         <div>
             <div className='topics'>
@@ -13,10 +14,10 @@ const Topics = ({topics}) => {
                     <h3>Total Quiz: {topics.total}</h3>
                 </div>
                 <button className='quiz-btn'>
-                    <Link to={`/${topics.id}`} className='btn-text'>Take the test</Link>
+                    <Link to={`/topics/${topics.id}`} className='btn-text'>Take the test</Link>
                 </button>
             </div>
-            
+
         </div>
     );
 };
