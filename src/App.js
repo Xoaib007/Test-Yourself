@@ -18,6 +18,7 @@ function App() {
     {
       path:'/',
       element: <Main></Main>,
+      errorElement:<Error404></Error404>,
       children:[
         {
           path:'/',
@@ -43,13 +44,9 @@ function App() {
           loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Stats></Stats>
         },
-        {
-          path:'/*',
-          element: <Error404></Error404>
-        }
-      ]
+        
+      ],
     },
-    
   ])
   return (
     <div className="App">

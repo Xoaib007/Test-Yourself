@@ -27,7 +27,7 @@ const QuizPage = () => {
     
     return (
         <div>
-            <h1>Quiz: {quizData.data.name}</h1>
+            <h1>Quiz Topic: {quizData.data.name}</h1>
             <div className="quizbox">
                 {
                     questions.map((ques , index) => {

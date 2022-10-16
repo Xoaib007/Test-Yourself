@@ -40,3 +40,8 @@
     display: flex;
     justify-content: center;
 }
+@media only screen and (max-width: 576px) {
+    .question{
+        width: 80%;
+    }
+}
