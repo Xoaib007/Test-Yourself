@@ -6,6 +6,7 @@
     margin-bottom: 50px;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: #f2956a;
 }
@@ -25,6 +26,17 @@
     background-color: aliceblue;
 }
 .option-container{
+    display: flex;
+    justify-content: center;
+}
+.correct-answer{
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    border: 0px;
+    background-color: #f2956a;
+    width: 70px;
+    text-decoration: none;
     display: flex;
     justify-content: center;
 }
